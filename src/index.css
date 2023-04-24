@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ====================header============= */
+.Header{
+  background-image: url(images/bacground.png);
+   /* background-image: url(images/Rectangle.png); */
+  background-size: cover;
+  /* background-color: red ; */
+}
+.lien{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text1{
+  font-size: 
+  50px;
+}
+.fieldset{
+  border: 0.5px solid white;
+}
