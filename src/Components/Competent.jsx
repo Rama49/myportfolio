@@ -14,28 +14,24 @@ const Competent = () =>
             <div className="row">
             <div className='col-lg-6'>
                 <div className="row mb-4">
+                    <div className="col">
+                    <ProgressBar striped variant="success" now={100} />
+                    </div>
                     <div className="col"> Bootstrap</div>
-                    <div className="col">
-                    <ProgressBar striped variant="success" now={40} />
-                    </div>
                 </div>
+           
+           
                 <div className="row mb-4">
-                    <div className="col"> javascript</div>
                     <div className="col">
-                    <ProgressBar striped variant="info" now={20} />
+                    <ProgressBar striped variant="success" now={100} />
                     </div>
-                </div>
-                <div className="row mb-4">
                     <div className="col"> html</div>
-                    <div className="col">
-                    <ProgressBar striped variant="warning" now={60} />
-                    </div>
                 </div>
                 <div className="row mb-4">
-                    <div className="col"> css</div>
                     <div className="col">
-                    <ProgressBar striped variant="danger" now={80} />
+                    <ProgressBar striped variant="success" now={80} />
                     </div>
+                    <div className="col"> css</div>
                 </div>
             </div>
             <div className='col-lg-6'>
@@ -48,19 +44,19 @@ const Competent = () =>
                 <div className="row mb-4">
                     <div className="col"> javascript</div>
                     <div className="col">
-                    <ProgressBar striped variant="info" now={20} />
+                    <ProgressBar striped variant="success" now={20} />
                     </div>
                 </div>
                 <div className="row mb-4">
                     <div className="col"> html</div>
                     <div className="col">
-                    <ProgressBar striped variant="warning" now={60} />
+                    <ProgressBar striped variant="success" now={60} />
                     </div>
                 </div>
                 <div className="row mb-4">
                     <div className="col"> css</div>
                     <div className="col">
-                    <ProgressBar striped variant="danger" now={80} />
+                    <ProgressBar striped variant="success" now={80} />
                     </div>
                 </div>
             </div>

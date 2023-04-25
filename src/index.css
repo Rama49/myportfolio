@@ -14,19 +14,52 @@ code {
 
 /* ====================header============= */
 .Header{
-  background-image: url(images/bacground.png);
-   /* background-image: url(images/Rectangle.png); */
+  background-image: url(images/Rectangle.png);
   background-size: cover;
-  /* background-color: red ; */
+}
+.Heade{
+  background-image: url(images/bacground.png);
+  /* background-size: cover; */
+}
+.name{
+  color: #FE9800;
 }
 .lien{
   text-transform: uppercase;
   font-weight: 700;
 }
 .text1{
-  font-size: 
-  50px;
+  padding-top: 50px;
+  font-size: 40px;
 }
 .fieldset{
   border: 0.5px solid white;
+  border-bottom: none;
+}
+.foto{
+  background-color: #F7F7F7;
+}
+.gradient{
+  width: 100%;
+}
+.send{
+  background-color: #FC9511;
+  color: #F7F7F7;
+  border: none;
+}
+.prenom{
+  border: 1px 0px 0px 0px;
+}
+
+/* ==================presente=================== */
+.num{
+  background-color: #FC9511;
+  color: #F7F7F7;
+  border-radius: 50%;
+}
+.tri{
+  color: #009688;
+}
+.force{
+  text-align: start;
 }
