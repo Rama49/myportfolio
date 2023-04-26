@@ -2,7 +2,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const Competent = () =>
  {
     return(
-        <section className='competent'>
+        <section className='competent mt-5'>
             <div className="row">
                 <div className="col-lg-6">
                    <h1>Outils</h1>

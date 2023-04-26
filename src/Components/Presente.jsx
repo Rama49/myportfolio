@@ -1,6 +1,6 @@
 const Presente = () => {
     return(
-        <div className="presente bg-red">
+        <div className="presente bg-red mt-5 mb-5">
         <h1  className="justify-content-center">Presentation</h1>
         <div className="row">
         <div className="col-lg-6">

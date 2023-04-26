@@ -13,7 +13,7 @@ import wave from '../images/wave.svg';
 
 const Header = () =>{
         return(
-        <section>
+        <section className='mb-5'>
           <div className=" align-items-cente bold text-white Heade"> 
             <div className="Header">
             <Navbar bg=""  className='Navbar' expand="lg t-white">
