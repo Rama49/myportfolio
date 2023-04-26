@@ -10,13 +10,16 @@ import {
 import capture1 from '../images/Capture1.JPG';
 import capture2 from '../images/Capture2.JPG';
 import capture3 from '../images/Capture3.JPG';
+// import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 const Portfolio = () => 
 {
       return (
-        <section>
+        <section className='expert'>
+          <h1>Portfolio</h1>
             <div className="row mb-5 justify-content-center">
                 <div className="col-lg-3">
                 <MDBCard>

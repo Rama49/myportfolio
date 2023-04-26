@@ -1,7 +1,7 @@
 const Presente = () => {
     return(
         <div className="presente bg-red mt-5 mb-5">
-        <h1  className="justify-content-center">Presentation</h1>
+        <h1 className="justify-content-center">Presentation</h1>
         <div className="row">
         <div className="col-lg-6">
             <div className="row mt-5">

@@ -52,6 +52,9 @@ code {
 }
 
 /* ==================presente=================== */
+.presente{
+  background-image: url(images/gradient.png);
+}
 .num{
   background-color: #FC9511;
   color: #F7F7F7;
@@ -66,4 +69,19 @@ code {
 /* ====================portfolio====================== */
 .carte{
   height: 200px;
+}
+.carte:hover{
+  background-color: red;
+  border: #009688;
+}
+/* ===================competent=================== */
+.vert{
+ color: #009688;
+}
+/* =================expert==================== */
+.expert{
+  background-color: #F7F7F7;
+}
+.start{
+  text-align: start;
 }
