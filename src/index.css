@@ -39,9 +39,9 @@ code {
 .foto{
   background-color: #F7F7F7;
 }
-.gradient{
+/* .gradient{
   width: 100%;
-}
+} */
 .send{
   background-color: #FC9511;
   color: #F7F7F7;
@@ -67,6 +67,15 @@ code {
   text-align: start;
 }
 /* ====================portfolio====================== */
+.meto:hover{
+   background-color: #009688;
+   /* box-shadow: 5px #009688; */
+}
+.bord{
+  border: none;
+  color: white;
+  background-color: #009688;
+}
 .carte{
   height: 200px;
 }

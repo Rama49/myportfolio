@@ -5,17 +5,17 @@ import gradient from '../images/gradient.png';
 const Contact = () => 
 {
     return (
-        <section className="section">
-            <h1>Restons en contact</h1>
+        <section className="section container-fluid">
+            <h1 className='my-5'>Restons en contact</h1>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-12 col-sm-12">
                     <Form>
-                        <Form.Group className="mb-3 prenom" >
-                            <Form.Label>Prenom</Form.Label>
+                        <Form.Group className="mb-3  prenom" >
+                            <Form.Label className='float-start'>Prenom</Form.Label>
                             <Form.Control type="text" className='prenom' />
                         </Form.Group>
                         <Form.Group className="mb-3" >
-                            <Form.Label>Nom</Form.Label>
+                            <Form.Label className='float-start b-0'>Nom</Form.Label>
                             <Form.Control type="text" />
                         </Form.Group>
                         <Form.Group className="mb-3" >
@@ -24,11 +24,11 @@ const Contact = () =>
                     </Form>
             <button type='button' className='mt-2 send'>Envoyer</button>
                 </div>
-                <div className="col-lg-5 foto">
-                    <img src={photo} alt='photos' height={500}/>
-                </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 "> 
+                    <img src={photo} alt='photos' height={500} className='img-fluid'/>
+                </div> 
             </div>
-                <img src={gradient} className="gradient" />
+                <img src={gradient} className="gradient mt-5 img-fluid" />
         </section>
     )
 }

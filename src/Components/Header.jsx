@@ -13,8 +13,8 @@ import wave from '../images/wave.svg';
 
 const Header = () =>{
         return(
-        <section className='mb-5'>
-          <div className=" align-items-cente bold text-white Heade"> 
+        <section className='mb-5 container-fluid'>
+          <div className=" align-items-center bold text-white Heade"> 
             <div className="Header">
             <Navbar bg=""  className='Navbar' expand="lg t-white">
               <Container>
@@ -22,18 +22,18 @@ const Header = () =>{
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto lien">
-                    <Nav.Link href="#home" className='ms-5 ps-5 text-white'>Acceuil</Nav.Link>
-                    <Nav.Link href="#home" className='ms-5 ps-5 text-white'>Presentation</Nav.Link>
-                    <Nav.Link href="#link" className='ms-5 ps-5 text-white'>Portfolio</Nav.Link>
-                    <Nav.Link href="#home" className='ms-5 ps-5 text-white'>Competences</Nav.Link>
-                    <Nav.Link href="#link" className=' ms-5 ps-5 text-white'>Presentation</Nav.Link>
+                    <Nav.Link href="#home" className='ms-lg-5 ps-lg-5 text-white'>Acceuil</Nav.Link>
+                    <Nav.Link href="#home" className='ms-lg-5 ps-lg-5 text-white'>Presentation</Nav.Link>
+                    <Nav.Link href="#link" className='ms-lg-5 ps-lg-5 text-white'>Portfolio</Nav.Link>
+                    <Nav.Link href="#home" className='ms-lg-5 ps-lg-5 text-white'>Competences</Nav.Link>
+                    <Nav.Link href="#link" className=' ms-lg-5 ps-lg-5 text-white'>Presentation</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
             <div className="fieldset ">
               <div className="row">
-                  <div className="col-lg-6 mt-5 pt-5" >
+                  <div className="col-lg-6 col-md-6 col-sm-12 mt-5 pt-5" >
                     <p className='text1 mb-5'>Bonjour! C'est <span className='name'>RAMA FALL</span> je suis developpeuse backend senior a bakeli</p>
                     <div className="row pt-5">
                       
@@ -71,14 +71,14 @@ const Header = () =>{
                         </div>
                   </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-6 col-sm-12">
                       <img src={photo} />
                   </div>
               </div>
             </div>
             </div>
           </div>
-          <img src={wave} />
+          {/* <img src={wave} /> */}
         </section>
     )
     

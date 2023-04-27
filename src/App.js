@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App container-fluid">
       <Header />
-      <Presente />
+       <Presente />
       < Portfolio />
       < Competent />
       < Expert />

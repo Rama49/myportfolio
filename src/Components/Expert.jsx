@@ -13,28 +13,9 @@ import {
 const Expert = () =>
 {
     return(
-        <section className="expert">
-               <h1>Mes Experiences</h1>
-               <div className='mb-5'>
-                    <MDBCard className='start'>
-                        <MDBCardBody>
-                        <MDBCardTitle>Developpeuse front-end</MDBCardTitle>
-                        <MDBCardText>
-                            Dans ce projet nous avons crer un site vitrine qui consistait a exposer ces produits alimentaire et donc a l aider de liquider ces produits tres vites. 
-                        </MDBCardText>
-                        </MDBCardBody>
-                   </MDBCard>
-               </div>
-               <div className='mb-5'>
-                    <MDBCard className='start'>
-                        <MDBCardBody>
-                        <MDBCardTitle>Developpeuse front-end</MDBCardTitle>
-                        <MDBCardText>
-                            Dans ce projet nous avons crer un site vitrine qui consistait a exposer ces produits alimentaire et donc a l aider de liquider ces produits tres vites. 
-                        </MDBCardText>
-                        </MDBCardBody>
-                   </MDBCard>
-               </div>
+        <section className="expert container-fluid">
+               <h1 className='my-5'>Mes Experiences</h1>
+              
                <div className='mb-5'>
                     <MDBCard className='start bg-white'>
                         <MDBCardBody>

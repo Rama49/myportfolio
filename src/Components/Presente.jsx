@@ -1,18 +1,18 @@
 const Presente = () => {
     return(
-        <div className="presente bg-red mt-5 mb-5">
+        <div className="presente bg-red mt-5 mb-5 container-fluid">
         <h1 className="justify-content-center">Presentation</h1>
         <div className="row">
         <div className="col-lg-6">
             <div className="row mt-5">
-            <div className="col-lg-1">
+            <div className="col-1">
                 <p className="num">1</p>
                 <p className="num">2</p>
                 <p className="num">3</p>
                 <p className="num">4</p>
                 <p className="num">5</p>
             </div>
-            <div className="col-lg-4 force ">
+            <div className="col-lg-4 col-11 force ">
                 <p>Capacite d'apprentissage</p>
                 <p>Collabaration</p>
                 <p>Responsabilite</p>
