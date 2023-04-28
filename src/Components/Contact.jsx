@@ -22,7 +22,7 @@ const Contact = () =>
                             <Form.Control as="textarea" rows={13} placeholder='Votre Message'/>
                         </Form.Group>
                     </Form>
-            <button type='button' className='mt-2 send' href="http://wa.me/221776226593" >Envoyer</button>
+            <a className='mt-2 send text-decoration-none' href="http://wa.me/221776226593" >Envoyer</a>
                 </div>
               <div className="col-lg-6 col-md-12 col-sm-12 "> 
                     <img src={photo} alt='photos' height={500} className='img-fluid'/>

@@ -32,7 +32,7 @@ const Portfolio = () =>
             <div className="row mb-5 justify-content-center">
                 <div className="col-lg-3 meto">
                 <div data-aos="flip-right">
-                <MDBCard>
+                <MDBCard className='mb-2'>
                   <MDBCardImage src={capture4} position='top' alt='...'  className='carte'/>
                   <MDBCardBody>
                     <MDBCardTitle>meteo</MDBCardTitle>

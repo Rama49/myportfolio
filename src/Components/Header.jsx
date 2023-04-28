@@ -26,7 +26,7 @@ const Header = () =>{
                     <Nav.Link href="#home" className='ms-lg-5 ps-lg-5 text-white'>Presentation</Nav.Link>
                     <Nav.Link href="#link" className='ms-lg-5 ps-lg-5 text-white'>Portfolio</Nav.Link>
                     <Nav.Link href="#home" className='ms-lg-5 ps-lg-5 text-white'>Competences</Nav.Link>
-                    <Nav.Link href="#link" className=' ms-lg-5 ps-lg-5 text-white'>Presentation</Nav.Link>
+                    <Nav.Link href="#link" className=' ms-lg-5 ps-lg-5 text-white'>Contacts</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
@@ -46,11 +46,11 @@ const Header = () =>{
                           </div>
                         </div>
                         <div className="col-lg-3">
-                          <div className="row pe-2">
+                          <div className="row ">
                             <div className="col-1">
                               <img src={enveloppe} />
                             </div>
-                            <div className="col-9">ramafall49@gmail.com</div>
+                            <div className="col-8">ramafall49@gmail.com</div>
                           </div>
                         </div>
                         <div className="col-lg-3">
@@ -64,9 +64,9 @@ const Header = () =>{
                         <div className="col-lg-3">
                           <div className="row g-0">
                             <div className="col-1 ms-4">
-                              <img src={balance} />
+                              <img src={balance} width={22} className=''/>
                             </div>
-                            <div className="col-3">Bakeli</div>
+                            <div className="col-3 ms-3">Bakeli</div>
                           </div>
                         </div>
                   </div>
